@@ -17,3 +17,7 @@ This leads to the creation of a self-generating model, requiring only a few high
 
 For all code development: Use [nbdev](https://github.com/fastai/nbdev) and jupyter notebooks and python files for utility functions.
 [Here](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) are tips on formatting github pages.
+
+### Jupyter Notebook / Jupyter Labs
+
+[Here](https://sqlbak.com/blog/wp-content/uploads/2020/12/Jupyter-Notebook-Markdown-Cheatsheet2.pdf) is a cheat sheet on the Markdown cells.
