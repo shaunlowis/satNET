@@ -1,7 +1,7 @@
 # satNET
 For code development in relation to the satNET model.
 
-# **Overlying Idea**
+## **Overlying Idea**
 If you imagine the space around the Earth as a bedsheet, you have satellites rolling across the bedsheet in orbit with earth. 
 If you have add more satellites, the orbits of the rest change due to the new curve of the sheet. 
 As a result of this change in orbit, you can figure out where the new satellites are and how much they curve the sheet by and therefore their mass. 
