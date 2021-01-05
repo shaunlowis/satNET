@@ -15,6 +15,11 @@ These deviations in orbits of the masses are then used to calculate the near-fie
 
 This leads to the creation of a self-generating model, requiring only a few highly detailed orbits at convenient locations. 
 
+## **General communication**
+
+We can obviously continue to contact eachother in whatever way we want, but I have made a [discord server](https://discord.gg/gB5UNhKFKt) that might make things easier. The link above is an invite link.
+I suggest we use this for meetings, things that everyone might want to know, etc.
+
 ## **Code Development**
 
 I am trying to write updates on what I do in github as comments under issues. Issues that other people can work on will be [pinned issues](https://github.com/shaunlowis/satNET/issues)
