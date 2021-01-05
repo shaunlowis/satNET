@@ -8,9 +8,12 @@ As a result of this change in orbit, you can figure out where the new satellites
 If you start with just a few satellites in the model, you can look at their orbits and can tell by their paths what objects must be affecting their orbits and where these objects are.
 If we can only do it for a few satellites, it already would show promise, since ESA and NASA both have debris tracking satellites in orbit already that measure these things to a very high degree of accuracy.
 
-Once the basic orbital mechanics are figured out, we should be able to write a self-generating machine learning approach to making a map of near-earth space debris.
-This would be done using the above relativistic gravity approach.
+## **Model outline**
+Write a *procedurally* generating model that uses the deviations in orbits of satellites/space debris.
+Deviations are calculated by expected orbit (orbit if only large nearby masses are taken into account) - observed orbit (actual orbit).
+These deviations in orbits of the masses are then used to calculate the near-field masses around the observed mass, thereby generating a map of objects in near-earth orbit.
+
+This leads to the creation of a self-generating model, requiring only a few highly detailed orbits at convenient locations. 
 
 For all code development: Use [nbdev](https://github.com/fastai/nbdev) and jupyter notebooks and python files for utility functions.
-
 [Here](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) are tips on formatting github pages.
