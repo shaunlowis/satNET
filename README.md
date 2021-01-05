@@ -15,6 +15,12 @@ These deviations in orbits of the masses are then used to calculate the near-fie
 
 This leads to the creation of a self-generating model, requiring only a few highly detailed orbits at convenient locations. 
 
+## **Code Development**
+
+I am trying to write updates on what I do in github as comments under issues. Issues that other people can work on will be [pinned issues](https://github.com/shaunlowis/satNET/issues)
+
+Please try and write in-line documentation in markdown cells as I think all the development of this model can be initially done in notebooks, then grunty utilities can be moved to python scripts.
+
 For all code development: Use [nbdev](https://github.com/fastai/nbdev) and jupyter notebooks and python files for utility functions.
 [Here](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) are tips on formatting github pages.
 
