@@ -2,11 +2,9 @@
 For code development in relation to the satNET model.
 
 ## **Overlying Idea**
-If you imagine the space around the Earth as a bedsheet, you have satellites rolling across the bedsheet in orbit with earth. 
-If you have add more satellites, the orbits of the rest change due to the new curve of the sheet. 
-As a result of this change in orbit, you can figure out where the new satellites are and how much they curve the sheet by and therefore their mass. 
+Use orbital mechanics and fine level measurements to calculate satellites nearby eachother from orbital path deviation.
 If you start with just a few satellites in the model, you can look at their orbits and can tell by their paths what objects must be affecting their orbits and where these objects are.
-If we can only do it for a few satellites, it already would show promise, since ESA and NASA both have debris tracking satellites in orbit already that measure these things to a very high degree of accuracy.
+If we can only do it for a few satellites, it already would show promise, since ESA and NASA both have debris tracking satellites in orbit already that measure these things to a very high degree of accuracy. (10nm)
 
 ## **Model outline**
 Write a *procedurally* generating model that uses the deviations in orbits of satellites/space debris.
